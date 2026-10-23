@@ -7,7 +7,7 @@ int main()
 	scanf("%f%f%f",&a,&b,&c);
 	d=b*b-4*a*c;
 	if(d>=0)
-		printf("Roots of %.2f and %.2f",(-d+sqrt(d))/(2*a),(-d-sqrt(d))/(2*a));
+		printf("Roots of %.2f and %.2f",(-b+sqrt(d))/(2*a),(-b-sqrt(d))/(2*a));
 	else
 		printf("Imaginary roots");
 	
